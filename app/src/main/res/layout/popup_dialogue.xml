@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:background="@color/bleu">
+    <TextView
+        android:id="@+id/text_stategame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:layout_marginBottom="5dp"
+        android:paddingStart="15dp"
+        android:text="do you want to play again !"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="22sp"
+        android:paddingStart="15dp"
+        android:layout_marginBottom="5dp"
+
+        android:text="do you want to play again !"
+        android:textColor="@color/white"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:paddingBottom="5dp">
+        <TextView
+            android:id="@+id/btn_yes"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center"
+            android:textColor="@color/bleu"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:textStyle="italic"
+            android:text="Yes" />
+
+        <TextView
+            android:id="@+id/btn_no"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingEnd="30dp"
+            android:layout_margin="10dp"
+            android:textColor="@color/bleu"
+            android:textSize="20sp"
+           android:textStyle="italic"
+            android:background="@color/white"
+            android:text="No" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
